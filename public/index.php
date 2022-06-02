@@ -1,3 +1,6 @@
+<?php
+    require 'cn.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,8 +19,8 @@
             
        <nav>
            <a href="" class="nav-link">Bienvenida</a>
-           <a href="paginas/Usuarios.html" class="nav-link">Usuarios</a>
-           <a href="paginas/Asistencia.html" class="nav-link">Asistencia</a>
+           <a href="Usuarios.php" class="nav-link">Usuarios</a>
+           <a href="Asistencia.php" class="nav-link">Asistencia</a>
        </nav>
     </header>
 </body>
