@@ -25,6 +25,6 @@
     
     </header>
     
-    <b href="#" style ="--clr:#ff1867"><span>Boton1</span><i></i></b>
+    <b href="#" style ="--clr:#ff1867"><span>Pulsar para pasar Asistencia</span><i></i></b>
 </body>
 </html>
