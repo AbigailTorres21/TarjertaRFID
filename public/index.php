@@ -22,6 +22,9 @@
            <a href="Usuarios.php" class="nav-link">Usuarios</a>
            <a href="Asistencia.php" class="nav-link">Asistencia</a>
        </nav>
+    
     </header>
+    
+    <b href="#" style ="--clr:#ff1867"><span>Boton1</span><i></i></b>
 </body>
 </html>
