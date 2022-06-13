@@ -9,18 +9,21 @@
     <title></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilostablas.css">
+    <link rel="stylesheet" href="/static/estilostablas.css">
     <title>Asistencias</title>
 </head>
 <body>
+    
    <div class="container-table">
        <div class="table-title">DATOS DE LOS USUARIOS</div>
        <div class="table-header">ID</div>
        <div class="table-header">RFID ID</div>
        <div class="table-header">Nombre Completo</div>
        <div class="table-header">Fecha Creacion</div>
+      {{data}}
        <?php $resultado = mysqli_query($conexion,
        $usuarios);
+       
        while($row=mysqli_fetch_assoc($resultado)) { ?>
         <div class="table__item"><?php echo $row["id"];?></div>
         <div class="table__item"><?php echo $row["rfid_uid"];?></div>
