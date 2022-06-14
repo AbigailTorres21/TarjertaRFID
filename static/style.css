@@ -6,7 +6,14 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 }
-
+.nav-link{
+    color:#fff;
+    font-size: larger;
+}
+.nombre-empresa{
+    color: #fff;
+    border-color: black;
+}
 body{
     font-family: sans-serif;
     margin: 0;
@@ -14,11 +21,11 @@ body{
     background-color: rgb(236, 178, 51);
     min-height: 100vh;
 
-    background-image: url(background.jpg);
+    background-image: url(background1.jpeg);
     background-size: cover;
     background-size: 60rem;
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position: center center;
    
 }
 body b{
